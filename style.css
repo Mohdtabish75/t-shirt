@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#container{
+    background-image: url(Background.png);
+    background-position: 100%;
+    background-size: cover;
+    height: 100vh;
+    
+}
+#nurse{
+    display: flex;
+    justify-content: center;
+}
+#register{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+#register button{
+    background-color: rgb(172, 6, 172);
+    border: 0;
+    border-radius: 40px;
+    padding: 10px;
+    font-size: 1.5rem;
+    width: 12vw;
+    color: white;
+    cursor: pointer;
+}
+#register a{
+    text-decoration: none;
+    color: white;
+}
+#paragraph a{
+    text-decoration: none;
+    color: blue;
+}
+p{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#container img{
+    width: 75vw;
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+}
+#child-container{
+    display: flex;
+
+    justify-content: space-between;
+}
+#child-container img{
+    width: 15vw;
+   
+}
